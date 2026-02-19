@@ -19,6 +19,7 @@ function startGame() {
     let secondCard = getRandomCard()
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard
+    hasBlackJack = false
     isAlive = true
     renderGame()
 }
