@@ -12,7 +12,7 @@ let cardsEl = document.getElementById("cards-el")
 let sumEl = document.getElementById("sum-el")
 let playerEl = document.getElementById("player-el")
 
-playerEl.textContent = playerName + ": $" + playerChips
+playerEl.textContent = player.Name + ": $" + player.Chips
 
 function startGame() {
     let firstCard = getRandomCard()
